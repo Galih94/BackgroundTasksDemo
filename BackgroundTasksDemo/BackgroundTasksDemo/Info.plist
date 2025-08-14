@@ -17,6 +17,11 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+                    <key>BGTaskSchedulerPermittedIdentifiers</key>
+                    <array>
+                        <string>com.example.demo.refresh</string>
+                        <string>com.example.demo.processing</string>
+                    </array>
 				</dict>
 			</array>
 		</dict>

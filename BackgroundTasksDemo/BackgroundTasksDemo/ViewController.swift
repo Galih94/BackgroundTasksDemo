@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let btn1 = makeButton(title: "Schedule BGAppRefresh") {
             (UIApplication.shared.delegate as? AppDelegate)?.scheduleAppRefresh()
         }
-
+        // comment rebase 2
         let btn2 = makeButton(title: "Schedule BGProcessing") {
             (UIApplication.shared.delegate as? AppDelegate)?.scheduleProcessingTask()
         }
